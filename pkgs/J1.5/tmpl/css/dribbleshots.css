@@ -4,7 +4,7 @@
 
  *
 
- * @package   mod_dribbblr
+ * @package   mod_dribbleshots
 
  * copyright Siege21.com/Antony Doyle
 
@@ -15,12 +15,12 @@
 
 /* Classic Dribbble Style
 -----------------------------------------------------------------------------*/
-#dribbblr {
+#dribbleshots {
   float: left;
   width: 100%;
 }
 
-#dribbblr .zen-shot {
+#dribbleshots .zen-shot {
   background: #fff;
   padding: 8px;
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);

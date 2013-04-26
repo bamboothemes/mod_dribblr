@@ -17,9 +17,11 @@ $shotsPerRow = $params->get('shotsPerRow');
  // Returns a reference to the global document object
 $doc 					= JFactory::getDocument();
  
-
-$doc->addCustomTag('<script src="modules/mod_dribbblr/js/jribble.js"></script>');
+if ($jQuery) {
+  $doc->addCustomTag('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>');
+}
+$doc->addCustomTag('<script src="modules/mod_dribbleshots/js/jribble.js"></script>');
 
 if ($dribCss) {
-  $doc->addCustomTag('<link href="modules/mod_dribbblr/tmpl/css/dribbleshots.css" media="screen" rel="stylesheet" type="text/css" />');
+  $doc->addCustomTag('<link href="modules/mod_dribbleshots/tmpl/css/dribbleshots.css" media="screen" rel="stylesheet" type="text/css" />');
 }

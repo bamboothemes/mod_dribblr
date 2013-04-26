@@ -2,7 +2,7 @@
 /**
  *
  *
- * @package   mod_#dribbblr
+ * @package   mod_dribbleshots
  * copyright Siege21.com/Antony Doyle
  * @license GPL3
  */
@@ -65,14 +65,14 @@ jQuery.jribbble.getShotsByPlayerId(playername, function (playerShots) {
 
     });
 
-    jQuery('#dribbblr').html(html.join(''));
+    jQuery('#dribbleshots').html(html.join(''));
 }, {page: 1, per_page: shotcount});
 </script>
 <div class="zen-dribble <?php echo $moduleclass_sfx; ?>">
 <div id="dribtext" >
 <p><?php echo $txtAbove; ?></p>
 </div>
-<div id="dribbblr">
+<div id="dribbleshots">
 
 
 </div>
