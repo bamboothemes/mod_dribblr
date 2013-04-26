@@ -5,7 +5,7 @@
 	<xmlproperty file="${dir.local}/${jb.name}.xml" keepRoot="false" prefix="jb." />
 
 	<target name="build">
-		<!--<phing inheritAll="true" inheritRefs="true" phingfile="${dir.build}/build.xml" target="build_all_bundles" />-->
+		<phing inheritAll="true" inheritRefs="true" phingfile="${dir.build}/build.xml" target="build_all_bundles" />
 		<phing inheritAll="true" inheritRefs="true" phingfile="${dir.build}/build.xml" target="build" />
 	</target>
 

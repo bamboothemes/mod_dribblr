@@ -31,3 +31,68 @@
   border-radius: 2px;
   margin-bottom: 30px;
 }
+
+
+
+/* A base css class to allow noresize on spans via a moduel class
+-----------------------------------------------------------------------------*/
+.noresize [class*="span"] {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 4.291845493562231%;
+  *margin-left: 4.238197424892704%;
+}
+
+.noresize .span12 {
+  width: 100%;
+  *width: 99.94635193133047%;
+}
+.noresize .span11 {
+  width: 91.30901287553648%;
+  *width: 91.25536480686695%;
+}
+.noresize .span10 {
+  width: 82.61802575107296%;
+  *width: 82.56437768240343%;
+}
+.noresize .span9 {
+  width: 73.92703862660944%;
+  *width: 73.87339055793991%;
+}
+.noresize .span8 {
+  width: 65.23605150214593%;
+  *width: 65.1824034334764%;
+}
+.noresize .span7 {
+  width: 56.54506437768241%;
+  *width: 56.49141630901288%;
+}
+.noresize .span6 {
+  width: 47.85407725321889%;
+  *width: 47.80042918454936%;
+}
+.noresize .span5 {
+  width: 39.163090128755364%;
+  *width: 39.10944206008583%;
+}
+.noresize .span4 {
+  width: 30.472103004291846%;
+  *width: 30.418454935622318%;
+}
+.noresize .span3 {
+  width: 21.781115879828327%;
+  *width: 21.7274678111588%;
+}
+.noresize .span2 {
+  width: 13.090128755364807%;
+  *width: 13.03648068669528%;
+}
+.noresize .span1 {
+  width: 4.399141630901288%;
+  *width: 4.34549356223176%;
+}

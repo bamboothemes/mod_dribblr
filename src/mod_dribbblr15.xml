@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="2.5" method="upgrade" client="site">
-	<name>Dribbble Shots</name>
-	<author>Antony Doyle</author>
-	<creationDate>June 2012</creationDate>
-	<copyright>Copyright Antony Doyle. All rights reserved.</copyright>
+	<name>Dribbblr</name>
+	<author>Anthony Olsen</author>
+	<creationDate>April 2013</creationDate>
+	<copyright>Copyright Anthony Olsen. All rights reserved.</copyright>
 	<license>GNU General Public License version 3 </license>
-	<authorEmail>antony@siege21.com</authorEmail>
+	<authorEmail>design@joomlabamboo.com</authorEmail>
 	<authorUrl>www.antonydoyle.co.uk</authorUrl>
 	<version>1.3</version>
 	<description>DRIBBLESHOTSDESC</description>
     <languages>
-	    	<language tag="en-GB">language/en-GB/en-GB.mod_dribbleshots.ini</language>
+	    	<language tag="en-GB">language/en-GB/en-GB.mod_dribbblr.ini</language>
     </languages>
 
 	<files>
-		<filename module="mod_dribbleshots">mod_dribbleshots.php</filename>
+		<filename module="mod_dribbblr">mod_dribbblr.php</filename>
 		<filename>index.html</filename>
 		<filename>helper.php</filename>
 		<folder>tmpl</folder>
 		<folder>js</folder>
-		<filename>mod_dribbleshots.xml</filename>
+		<filename>mod_dribbblr.xml</filename>
 
 	</files>
 
